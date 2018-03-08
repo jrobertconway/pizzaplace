@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza Place</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="pizza_place.css">
+<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3">
+				<div id="nav">
+            		<p><button type="button" class="btn btn-lg btn-primary active" data-toggle="modal" data-target="#theMenu" data-backdrop="true">Menu</button></p>
+            		<p><button type="button" class="btn btn-lg btn-primary active" data-toggle="modal" data-target="#theContact" data-backdrop="true">Contact</button></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<p id="title"><b>Pizza Place</b></p>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div id="address">
+				<p>monday - friday 10am-11pm | saturday 2pm-2am</p>
+    			<p>42 village St, New York</p>
+				</div>
+				
+			</div>
+		</div>
+        	
+			
+	
+		
+		
+        
+		
+		
+		
+        
+    
+ 
+		
+        
+         <!-- Menu Modal -->
+
+      <div class="modal fade" id="theMenu" role="dialog">
+		  <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+          <span class="close" data-dismiss="modal">x</span>
+            <h3>Menu</h3>
+            </div>
+            <div class="modal-body">
+            <h1>Starters</h1>
+      <h5>Tomato Soup <b>$2.50</b></h5>
+      <h5>Chicken Salad <b>$3.50</b></h5>
+      <h5>Bread and Butter <b>$1.00</b></h5>
+    
+    
+      <h1>Main Courses</h1>
+    
+    
+      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
+      <h5>Italian Pizza <b>$5.50</b></h5>
+      <h5>Veggie Pasta <b>$4.00</b></h5>
+      <h5>Chicken and Potatoes <b>$6.50</b></h5>
+      <h5>Deluxe Burger <b>$5.00</b></h5>
+    
+    
+      <h1>Desserts</h1>
+    
+    
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+      <h5>Cheese <b>$5.50</b></h5>
+        
+            </div>
+          </div>
+		  </div>
+        </div>
+  
+
+<!-- Contact Modal -->
+ <div class="modal fade" id="theContact" role="dialog">
+	 <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+          <span class="close" data-dismiss="modal">x</span>
+            <h1>Contact</h1>
+            </div>
+            <div class="modal-body">
+
+     <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input type="text" placeholder="Name" required name="Name"></p>
+        <p><input type="number" placeholder="How many people" required name="People"></p>
+        <p><input type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+        <p><input type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button type="submit">SEND MESSAGE</button></p>
+      </form>
+    
+     </div>
+          </div>
+		 </div>
+        </div>
+    
+</div>
+</body>
+</html>

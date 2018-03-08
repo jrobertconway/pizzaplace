@@ -1,0 +1,30 @@
+body, html{
+	background-image: url(https://static.pexels.com/photos/9708/food-pizza-restaurant-eating.jpg);
+	
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+	color: white;
+	font-family: 'Mogra', cursive;
+}
+
+#title{
+	font-size: 50px;
+	padding: 200px 0px 160px;
+}
+
+#address{
+	font-size: 20px;
+	
+}
+
+#theContact{
+	color: black;
+}
+
+#theMenu{
+	color: black;
+}
+
+
